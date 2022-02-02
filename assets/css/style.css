@@ -206,6 +206,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 480px) {
+  #header .logo img {
+    max-height: 75px;
+  }
+}
+
+@media (max-width: 390px) {
+  #header .logo img {
+    max-height: 65px;
+    padding: 5px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -974,6 +987,7 @@ section {
   border: 1px solid var(--bright-orange);
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
+  flex-grow: 1;
 }
 
 .services .icon-box .icon {
