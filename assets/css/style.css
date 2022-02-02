@@ -675,6 +675,7 @@ section {
   background: #febd17;
   border-radius: 4px;
   color: var(--main-bg);
+  align-self: center;
 }
 
 .why-us .content h3 {
