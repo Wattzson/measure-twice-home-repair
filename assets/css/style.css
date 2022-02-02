@@ -1113,7 +1113,7 @@ section {
   font-weight: 600;
 }
 
-.appointment .php-email-form .loading {
+/* .appointment .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
@@ -1131,7 +1131,7 @@ section {
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
-}
+} */
 
 .appointment .php-email-form input, .appointment .php-email-form textarea, .appointment .php-email-form select {
   border-radius: 0;
@@ -1152,7 +1152,7 @@ section {
   padding: 10px 12px;
 }
 
-.appointment .php-email-form button[type="submit"] {
+.appointment button[type="submit"] {
   background: var(--main-bg);
   border: 0;
   padding: 10px 35px;
@@ -1161,7 +1161,7 @@ section {
   border-radius: 50px;
 }
 
-.appointment .php-email-form button[type="submit"]:hover {
+.appointment button[type="submit"]:hover {
   background: #fff;
   color: #000;
 }
